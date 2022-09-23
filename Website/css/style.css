@@ -1,0 +1,148 @@
+
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  background-color: #e2edff;
+  line-height: 125%;
+}
+
+p, blockquote {
+  font-size: small;
+  color: floralwhite;
+}
+
+h1 {
+  font-size: x-large;
+}
+
+h2 {
+  font-size: large;
+  font-weight: bold;
+}
+
+h1, h2, h3 {
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+li {
+  font-size: small;
+    color: white;
+}
+
+a {
+  font-weight: bold;
+}
+
+a:link {
+  color: greenyellow;
+  text-decoration: none;
+}
+
+a:visited {
+  color: greenyellow;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: white;
+  background-color: navy;
+}
+
+a:active {
+  color: aqua;
+  background-color: navy;
+}
+
+p a:link {
+   text-decoration:underline;
+}
+
+#tagline {
+  font-style: italic;
+  font-family: Georgia, Times, serif;
+}
+
+.halpin {
+  color: #339999;
+  font-family: Georgia, Times, serif;
+  letter-spacing: 0.05em;
+}
+body {
+      background-image: url(../images/background.jpg);
+      background-color: lightblue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+body {
+ background-color:gray;
+}
+
+#container{ 
+ margin:2%;
+ background-color:green;
+
+} 
+nav, article, aside, footer {
+  background-color: green;
+  padding: 1%;
+}
+
+
+
+/* || main layout */
+
+main {
+  display: flex;
+}
+
+article {
+  flex: 4;
+}
+
+aside {
+  flex: 1;
+  margin-left: 10px;
+  background-color: green;
+}
+
+
+footer {
+  margin-top: 10px;
+}
+.ui.container {
+  margin-top:5%;
+}
+
+.ui.card .description {
+  font-style:italic;
+  font-weight:bold;
+}
+
+.ui.card .date {
+  color:purple;
+}

@@ -1,0 +1,31 @@
+table{
+	width: 60%;
+	margin: 5% auto;
+	border-collapse: collapse;
+}
+
+table,th,td {
+    border: 1px solid #336633;
+    padding: .4em
+}
+thead{
+    background-color: black;
+    color: white; 
+}
+tbody,td{
+    text-align: center;
+    font-style: italic
+}
+tbody tr:nth-of-type(even){
+    background-color: white;
+}
+tbody tr:nth-of-type(odd){
+    background-color: #99ff99;
+}
+
+tbody th:first-0f-type{
+    text-align: left;
+}
+tbody tr:hover {
+    background-color: purple;
+}

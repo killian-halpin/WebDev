@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Back to play form </title>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+  <link rel ="stylesheet" href="css/style.css">
+<nav>
+<ul>
+    <li><a href="index.html">Home Page </a></li>
+    <li><a href="players.html">Players</a></li>
+    <li><a href="back.html">Back to play Form</a></li>
+    <li><a href="fixtures.html">Fixtures</a></li>
+    <li><a href="club.html">Club Information</a></li>
+   
+</ul>
+</nav>
+</head>
+
+<body>
+    <div id ='container'>
+    <section> 
+      <h1>Cahir</h1>
+      <p id = "tagline">In Cahir we have a nickname we are called 'The Slashers'. </p>
+     <img src="images/cahir.jpg" alt="Cahir Crest" width="100" height="100"> 
+    </section>
+<main> 
+<article>
+<form id="myform" name="myform" method="post" action="process.html" autocomplete novalidate>
+<div class = "inline field">
+<label for = "name">Enter your Name:</label>
+<input type="text" name="name" id="name" size="10" maxlength="20" required autofocus pattern = "[A-Z][a-z]+( [A-Z][a-z]+)*">
+         
+<br>
+<label for = "email">Email Address: </label>
+<input type="email" name="email" id="email" required pattern = "^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$" >         
+<br>
+<label for="start_date">What date does training start back?</label>
+<input type="date" name="start_date" id="start_date" required>
+<br> 
+<label for= "quantity">My temperature when last checked was
+<input type = "number" name = "quantity" id = "quantity" min = "30" max = "50" step = "1" required> degrees.</label>
+<br>
+Please supply any extra information you think we might need in the box below:
+<textarea id="comments" name="comments" rows = "5" cols="40">
+Any Extra Information:
+</textarea>
+<br>
+Have you experienced COVID-19 Symptoms?
+<br>
+<input style="float:left" type="radio" name="action" id = "YES" value="YES">
+<label for = "YES" style="float:left"> YES</label>
+<br><input style="clear:left; float:left" type="radio" name="action" id = "NO" value="NO" checked="checked">
+<label for = "unsubscribe" style="float:left" > NO</label>
+<br> 
+If yes please specify
+<br> 
+<textarea id="comments" name="comments" rows = "5" cols="40" >
+Symptoms:
+</textarea>
+<br>
+<input style="clear:left" type="Submit">
+<input style= "clear:right" type="reset" value = "Start Over">
+</div> 
+ </form>
+</article>
+
+<aside> 
+    <a href="https://www.facebook.com/cahir.gaa/" target="_blank">Cahir GAA Facebook</a>
+    <a href="https://www.instagram.com/explore/locations/1018550956/cahir-gaa" target="_blank">Cahir GAA Instagram</a>
+    <a href="https://twitter.com/cahirgaaclub?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">Cahir GAA Twitter</a>
+</aside>
+</main>
+</div>
+    
+    <footer>
+      <p>©Copyright 2020 by Killian Halpin. All rights reversed.</p>
+    </footer>
+    
+    
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.js"></script>
+</html>
